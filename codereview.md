@@ -13,7 +13,7 @@
 
 ### Liskov Substitution Principle (LSP): ✅ Eingehalten
 - Alle Implementierungen von `ICalculatorOperation` können ohne Probleme verwendet werden.
-- Keine überraschenden Ausnahmen, außer bei Division durch Null, was dokumentiert ist.
+- Keine überraschenden Ausnahmen, ausser bei Division durch Null, was dokumentiert ist.
 
 ### Interface Segregation Principle (ISP): ✅ Eingehalten
 - Das Interface `ICalculatorOperation` ist minimal und spezifisch.
@@ -46,4 +46,4 @@
 
 ## Zusammenfassung
 
-Der Code folgt den gängigen Qualitätsprinzipien und Best Practices. Er ist modular, flexibel und leicht erweiterbar. Es gibt keine offensichtlichen Verstöße gegen die SOLID-Prinzipien oder andere wichtige Qualitätskriterien. Der Code ist gut strukturiert, gut dokumentiert und enthält eine solide Fehlerbehandlung. Es sind keine Verbesserungen erforderlich, da der Code bereits eine hohe Qualität aufweist.
+Der Code folgt den gängigen Qualitätsprinzipien und Best Practices. Er ist modular, flexibel und leicht erweiterbar. Es gibt keine offensichtlichen Verstösse gegen die SOLID-Prinzipien oder andere wichtige Qualitätskriterien. Der Code ist gut strukturiert, gut dokumentiert und enthält eine solide Fehlerbehandlung. Es sind keine Verbesserungen erforderlich, da der Code bereits eine hohe Qualität aufweist.
